@@ -57,7 +57,7 @@ module KeywordSearch
 
       value = groupedvalues | anyvalue ;
 
-      pair = bareword % key ':' value ;
+      pair = bareword % key ':' ' '* value ;
 
       value_only = value > default ;
       
